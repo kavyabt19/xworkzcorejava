@@ -1,0 +1,5 @@
+enum Food{
+
+   VEG, NONVEG, NOODELS,FRIDRICE;
+
+}

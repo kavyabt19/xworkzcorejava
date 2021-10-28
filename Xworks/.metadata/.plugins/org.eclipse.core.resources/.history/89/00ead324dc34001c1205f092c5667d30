@@ -1,0 +1,26 @@
+package com.xworkz.dp.dto;
+
+public class Addtwonum {
+
+	static int sum (int a,int b) {
+		
+		
+		while(b !=0) {
+			
+			int add = a&b;
+			
+			a =a^ b;
+			
+			b = add << 1;
+			
+		}
+		return a;
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println(sum(2 ,3));
+
+	}
+
+}

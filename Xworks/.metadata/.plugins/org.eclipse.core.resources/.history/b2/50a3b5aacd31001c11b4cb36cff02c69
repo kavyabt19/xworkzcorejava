@@ -1,0 +1,24 @@
+package com.xworkz.curd_operation;
+
+public class GinTester {
+	
+
+		public static void main(String[] args) {
+
+			Gin Gin = new Gin();
+			String brand = Gin.getname();
+			System.out.println(brand);
+
+			Gin.addGin("Jog Falls ");
+			Gin.addGin("Shivanasamudra");
+			Gin.addGin("Hebbe ");
+			Gin.addGin("Sathodi");
+			Gin.addGin("Kunchikal ");
+
+			Gin.displayGin();
+		}
+
+	}
+
+
+

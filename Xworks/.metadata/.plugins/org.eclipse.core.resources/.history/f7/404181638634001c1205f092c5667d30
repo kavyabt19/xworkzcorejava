@@ -1,0 +1,21 @@
+package com.xworkz.dp.dto;
+
+public class Table {
+	
+	String Type ;
+	String name;
+	
+	Table(){
+		
+		System.out.println("table is invoked");
+	}
+
+	public static void main(String[] args) {
+
+		
+		Table table =new Table();
+
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package method;
+
+public class IpodBrand {
+
+	enum IpodBrand{
+
+	    APPLE,MPlayer;
+
+	}
+
+}

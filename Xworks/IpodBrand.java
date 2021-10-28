@@ -1,0 +1,5 @@
+enum IpodBrand{
+
+    APPLE,MPlayer;
+
+}

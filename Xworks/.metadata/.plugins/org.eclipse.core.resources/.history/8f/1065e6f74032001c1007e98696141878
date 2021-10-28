@@ -1,0 +1,23 @@
+package com.xworkz.curd_operation;
+
+public class IslandStater {
+
+	public static void main(String[] args) {
+
+		Island island = new Island();
+		String cname = island.getOcean();
+		System.out.println(cname);
+
+		island.addIsland("lakshadweep");
+		island.displayIsland();
+		island.addIsland("Majuli");
+
+		island.addIsland("Golden");
+
+		island.addIsland("\n St. Mary's  "+"Havelock "+"Divar ");
+		//island.addIsland();
+	//	island.addIsland("Divar ");
+		island.displayIsland();
+	}
+
+}

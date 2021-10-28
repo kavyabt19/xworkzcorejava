@@ -1,0 +1,21 @@
+package com.xworkz.curd_operation;
+
+public class RestaurantStater {
+
+	public static void main(String[] args) {
+
+		Restaurant restaurant = new Restaurant();
+		String cname = restaurant.getLocation();
+		System.out.println(cname);
+
+		restaurant.addRestaurant("dairy milk");
+		restaurant.addRestaurant(" Bubbly");
+		restaurant.addRestaurant("oreo");
+	restaurant.addRestaurant("Fruit & Nut");
+		restaurant.addRestaurant("temptation");
+		restaurant.addRestaurant("milky bar");
+		restaurant.displayRestaurant();
+	}
+
+	
+}

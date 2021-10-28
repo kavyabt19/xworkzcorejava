@@ -1,0 +1,26 @@
+package com.xworkz.dp.dto;
+
+public class Bracelet {
+	
+	
+	private String colour;
+    private String material; 
+    private  boolean gifted;
+    private float price;
+    private boolean gemUsed;
+    
+    public Bracelet() {
+    	
+    	System.out.println("Bracelet with no-arg const is invoked");
+    	
+    	
+    }
+    
+    
+	
+		
+
+	
+	
+
+}

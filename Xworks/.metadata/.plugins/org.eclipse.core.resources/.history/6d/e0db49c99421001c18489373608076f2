@@ -1,0 +1,29 @@
+package method;
+
+public class Ipod {
+	
+	String color;
+	int price;
+	int Storage;
+	IpodBrand brand;
+	float size;
+	
+	
+	public void playMusic(){
+	   
+	   System.out.println("Invoked playMusci");
+	   System.out.println("color");
+	   System.out.println("price");
+	   System.out.println("Storage");
+	   System.out.println("brand");
+	   System.out.println("size");
+	
+	}
+	
+	
+	
+
+
+
+
+}

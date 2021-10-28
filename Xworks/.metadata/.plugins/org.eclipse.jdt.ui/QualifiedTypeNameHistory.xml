@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="method.HallTicket"/>
+    <fullyQualifiedTypeName name="method.SalarySlip"/>
+    <fullyQualifiedTypeName name="method.CovidCase"/>
+    <fullyQualifiedTypeName name="method.AadhaarCard"/>
+    <fullyQualifiedTypeName name="method.LaptopSpecifications"/>
+    <fullyQualifiedTypeName name="method.CoreJava"/>
+    <fullyQualifiedTypeName name="method.MedicinePredictor"/>
+    <fullyQualifiedTypeName name="method.MethodUseingArray"/>
+    <fullyQualifiedTypeName name="method.Employe"/>
+    <fullyQualifiedTypeName name="method.VtuResult"/>
+    <fullyQualifiedTypeName name="method.WebsitLogin"/>
+    <fullyQualifiedTypeName name="method.WhereIsMyTrain"/>
+    <fullyQualifiedTypeName name="method.Phone"/>
+    <fullyQualifiedTypeName name="com.xworkz.dp.dto.Bracelet"/>
+    <fullyQualifiedTypeName name="com.xworkz.dp.dto.Table"/>
+    <fullyQualifiedTypeName name="com.xworkz.dp.dto.Files"/>
+    <fullyQualifiedTypeName name="com.xworkz.dp.dto.Bag"/>
+    <fullyQualifiedTypeName name="com.xworkz.dp.dto.Revers"/>
+    <fullyQualifiedTypeName name="com.xworkz.dp.dto.IdeaInfinity"/>
+</qualifiedTypeNameHistroy>

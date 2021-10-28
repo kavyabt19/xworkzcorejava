@@ -1,0 +1,24 @@
+package com.xworkz.curd_operation;
+
+public class ResortTester {
+
+	
+
+		public static void main(String[] args) {
+
+			Resort Resort = new Resort();
+			String cname = Resort.getRlocation();
+			System.out.println(cname);
+
+			Resort.addResort("Jog Falls ");
+			Resort.addResort("Shivanasamudra");
+			Resort.addResort("Hebbe ");
+			Resort.addResort("Sathodi");
+			Resort.addResort("Kunchikal ");
+
+			Resort.displayResort();
+		}
+
+	}
+
+

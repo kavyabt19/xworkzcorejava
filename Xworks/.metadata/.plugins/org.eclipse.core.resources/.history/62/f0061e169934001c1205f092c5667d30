@@ -1,0 +1,25 @@
+package com.xworkz.dp.dto;
+
+public class Files {
+	
+	public static void fileName()
+	{
+		System.out.println("certificate fiels");
+		
+	}
+	
+	public static void StudiInfo(String stream) {
+		
+		System.out.println("student information   "+stream);
+	}
+
+	public static void main(String[] args) {
+
+		String stream="BE";
+		Files.StudiInfo(stream);
+		
+		Files.fileName();
+		
+	}
+
+}

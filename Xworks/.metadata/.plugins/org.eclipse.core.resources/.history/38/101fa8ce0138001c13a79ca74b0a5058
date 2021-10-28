@@ -1,0 +1,12 @@
+package com.xworkz.dp.dao;
+
+import com.xworkz.dp.dto.LawyerDAO;
+public class LawyerDAO {
+
+	private LawyerDAO[] lawyerDAO =new LawyerDAO[10];
+ 
+	
+	public LawyerDAO[] getLawyerDAO() {
+		return lawyerDAO;
+	}
+}

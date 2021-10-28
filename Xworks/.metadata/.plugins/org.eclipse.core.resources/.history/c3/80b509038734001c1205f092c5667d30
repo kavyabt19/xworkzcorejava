@@ -1,0 +1,34 @@
+package com.xworkz.dp.dto;
+
+public class Table {
+	
+	String Type ;
+	int size = 30;
+	
+	Table(){
+		
+		System.out.println("table is invoked");
+		
+		
+	}
+	
+	void disply() {
+		
+		System.out.println(Type+""+size);
+		
+	}
+
+public enum Type{
+	
+	GLASS_TABLE,WOOD_TABLE,PLASTIC_TABLE,METAL_TABLE;
+}
+	public static void main(String[] args) {
+
+		
+		Table table =new Table();
+		table.disply();
+
+
+	}
+
+}
