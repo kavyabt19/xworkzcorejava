@@ -19,4 +19,18 @@
     <fullyQualifiedTypeName name="com.xworkz.dp.dto.Bag"/>
     <fullyQualifiedTypeName name="com.xworkz.dp.dto.Revers"/>
     <fullyQualifiedTypeName name="com.xworkz.dp.dto.IdeaInfinity"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.SquareMatrix"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.IncreaseTriangle"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.DecreaseMatrix"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.DecreaseStarMatrix"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.RightSideTriangle"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.Triangle"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.LeftDiagonal"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.LeftSideTriangle"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.TriangleFor3Matrix"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.SquareStarMatrix"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.PluseMatrix"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.DiagonalStar"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.patternMatrix.DiagonalIndexNumber"/>
 </qualifiedTypeNameHistroy>
