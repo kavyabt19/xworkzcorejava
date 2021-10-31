@@ -1,11 +1,17 @@
 package com.xworkz.java.patternMatrix;
 
+import java.util.Scanner;
+
 public class TriangleFor3Matrix {
 
+	Scanner sc = new Scanner(System.in);
+	 
 	void triangle3Matrix() {
-
-		for (int row = 1; row <= 5; row++) {
-			for (int col = row; col <= 5; col++) {
+		System.out.println("Enter  the row and col :");
+		int n=5;
+		for (int row = 1; row <= n; row++) {
+			
+			for (int col = row; col <= n; col++) {
 
 				System.out.print(" ");
 			}

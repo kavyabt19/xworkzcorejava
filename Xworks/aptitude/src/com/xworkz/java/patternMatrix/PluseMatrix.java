@@ -1,9 +1,13 @@
 package com.xworkz.java.patternMatrix;
 
+import java.util.Scanner;
+
 public class PluseMatrix {
 
+	
 	void plusematrix() {
 	int n =5;
+	
 	for(int row = 1; row <= n*2-1 ;row++)
 	{
 		if (row == n)
@@ -12,7 +16,7 @@ public class PluseMatrix {
 			{
 				if (row == col)
 					System.out.print(n);
-				System.out.print(" ");
+				System.out.print("  ");
 
 			}
 		else
@@ -20,7 +24,7 @@ public class PluseMatrix {
 
 			{
 
-				System.out.print(n);
+				System.out.print("*");
 
 			}
 
