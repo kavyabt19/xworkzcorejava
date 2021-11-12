@@ -1,27 +1,40 @@
-package com.xworkz.java.patternMatrix;
+class PluseIndex{
 
-public class Squaremat {
-	
-	 void squarematrix(){
+public static void main(String[] args) {
+
+      
+		int row=Integer.parseInt(args[0]);
+		
+		int col=Integer.parseInt(args[1]);
+      PluseIndex sq=new PluseIndex();
+	  sq.squareMatrix(row,col);
+   }
+     void squareMatrix(int r,int c){
+		 int n=5;
+	 int mid=(r/2)+1;
+	 if(r%2!=0)
+	 {
+	 for(int row = 1;row <=n;row++){
+	  for(int col = 1;col<=n;col++){
 		 
-		 for(int row = 1;row <=5;row++){
-		  for(int col = 1;col<=5;col++){
-		  
-		  if(row==1||row==row||col==1||col==col){
-		  System.out.print(row+""+col+"\t");
-		  }else{
-			  System.out.print("\t");
-		  }
-		  System.out.println();
-		   }
-		 }
+		  if(row==mid||col==mid){
+	  
+	 
+	  System.out.print(row+""+col+"\t");
+	  }else{
+		  System.out.print("\t");
 	  }
-
-	public static void main(String[] args) {
-
-		 Squaremat sq=new Squaremat();
-		  sq.squarematrix();
+	  
 	   }
-	}
+	 
+	   System.out.println();
+	 }
+  }
+	 }
+
+
+
+
+
 
 }
