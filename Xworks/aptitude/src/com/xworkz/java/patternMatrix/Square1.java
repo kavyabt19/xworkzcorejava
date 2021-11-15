@@ -11,6 +11,7 @@ class Square1{
 	  for(int col = 1;col<=5;col++){
 	  
 	  if(row==1||row==5||col==1||col==5){
+		  
 	  System.out.print(row+""+col+"\t");
 	  }else{
 		  System.out.print("\t");
