@@ -26,6 +26,7 @@ class FibbonacciFor{
 	  }
 	 } 
 	  
+	  
 	  void PrintUsingRuc(int num1,int num2){
 		  
 		

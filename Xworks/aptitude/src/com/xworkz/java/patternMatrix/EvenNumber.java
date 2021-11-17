@@ -2,10 +2,12 @@ class EvenNumber{
 
        public static void main(String[] args){
 	   
+	    //  int num1=0,num2=100;
 	    EvenNumber even= new EvenNumber();
 		even.EvenNumberUsingForLoop();
 		even.EvenNumberUsingWhileLoop();
 		even.EvenNumberUsingDoLoop();
+		even.EvenUsingrecursion(0,100);
 	   }
 	   
 	   
@@ -67,6 +69,29 @@ class EvenNumber{
 
 }
 
-     
+      void EvenUsingrecursion(int num1,int num2){
+
+              
+  
+        
+          if (num2 < num1){
+    
+        return;
+    }
+ 
+  
+       if(num2 % 2 == 0 )
+        EvenUsingrecursion(num1, num2 - 2);
+      else
+        EvenUsingrecursion(num1, num2 - 1);
+ 
+  
+      if (num2 % 2 == 0)
+      {
+        System.out.print(num2 + "\n ");
+      }
+	  
+}
+ 
 
 }

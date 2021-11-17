@@ -6,6 +6,7 @@ class OddNumber{
 		odd.OddNumberUsingForLoop();
 		odd.OddNumberUsingWhileLoop();
 	    odd.OddNumberUsingDoLoop();
+		odd.OddUsingrecursion(0,100);
 	   }
 	   
 	   
@@ -66,6 +67,25 @@ class OddNumber{
      }while(i<=num);
 }
 
-     
+           void OddUsingrecursion(int num1,int num2){
+  
+             if (num2 < num1)
+              {
+                return;
+               }
+ 
+  
+             if(num2 % 2 == 1 )
+            OddUsingrecursion(num1, num2 - 2);
+             else
+            OddUsingrecursion(num1, num2 - 1);
+  
+  
+             if (num2 % 2 == 1)
+            {
+           System.out.print(num2 + " \n ");
+  }
+}
+ 
 
 }

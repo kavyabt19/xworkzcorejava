@@ -36,4 +36,5 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="com.xworkz.rules.indian.IndianCitizen"/>
+    <fullyQualifiedTypeName name="com.xworkz.Hospital.Hospital"/>
 </qualifiedTypeNameHistroy>
