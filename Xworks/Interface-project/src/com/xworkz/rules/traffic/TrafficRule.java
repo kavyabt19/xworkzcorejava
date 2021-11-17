@@ -1,6 +1,6 @@
 package com.xworkz.rules.traffic;
 
-public class TrafficRule {
+public interface TrafficRule {
 
 	boolean validLicense();
 	 String licenseNo();

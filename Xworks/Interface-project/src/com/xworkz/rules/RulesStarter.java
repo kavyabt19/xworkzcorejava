@@ -5,7 +5,18 @@ import com.xworkz.rules.indian.IndianCitizen;
 import com.xworkz.rules.marriage.MarriageRule;
 import com.xworkz.rules.traffic.TrafficRule;
 import com.xworkz.rules.voting.VotingRule;
-
+import com.xworkz.rules.indian.IndianCitizen;
+import com.xworkz.rules.marriage.MarriageRule;
+import com.xworkz.rules.traffic.TrafficRule;
+import com.xworkz.rules.voting.VotingRule;
+import com.xworkz.rules.indian.IndianCitizen;
+import com.xworkz.rules.marriage.MarriageRule;
+import com.xworkz.rules.traffic.TrafficRule;
+import com.xworkz.rules.voting.VotingRule;
+import com.xworkz.rules.indian.IndianCitizen;
+import com.xworkz.rules.marriage.MarriageRule;
+import com.xworkz.rules.traffic.TrafficRule;
+import com.xworkz.rules.voting.VotingRule;
 
 public class RulesStarter {
 

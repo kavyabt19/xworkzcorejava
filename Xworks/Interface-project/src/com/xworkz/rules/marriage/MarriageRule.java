@@ -1,6 +1,6 @@
 package com.xworkz.rules.marriage;
 
-public class MarriageRule {
+public interface MarriageRule {
 
 		boolean validAge(char gender, int age) ;
 		

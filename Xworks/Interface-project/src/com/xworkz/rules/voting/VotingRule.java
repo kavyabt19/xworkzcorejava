@@ -1,6 +1,6 @@
 package com.xworkz.rules.voting;
 
-public class VotingRule {
+public interface VotingRule {
 
 	int validAge();
 	String validID();
