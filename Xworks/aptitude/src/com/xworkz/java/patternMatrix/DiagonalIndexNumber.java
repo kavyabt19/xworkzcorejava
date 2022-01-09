@@ -1,4 +1,4 @@
-package com.xworkz.java.patternMatrix;
+
 
 public class DiagonalIndexNumber {
 	

@@ -15,7 +15,7 @@ class Fibbonacci{
 	  int num1=0, num2 =1;
 	  
 	  System.out.print( " Using while Loop \n");
-	  while(i<=10){
+	  while(num1<=10){
 	  System.out.print(" "+ num1 + " ");
 	  sum= num1 + num2;
 	  num1 = num2;

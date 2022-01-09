@@ -9,12 +9,10 @@ public class PalindromeNumber {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number :");
 	     int num = sc.nextInt();
-	     
-	     System.out.println("Enter a number :");
-	     
-	    int orgNum= num;
-       int rev=0;
+	      int orgNum= num;
+          int rev=0;
 	    
 	    while(num!=0) {
 	    	
@@ -22,10 +20,10 @@ public class PalindromeNumber {
 	    	num=num/10;
 	    }
 	    
-	    System.out.println(rev);
-	    if(orgNum==num) {
+	   // System.out.println(rev);
+	    if(orgNum==rev) {
 	    	
-	    	System.out.println(orgNum+"Palindrome Number");
+	    	System.out.println(orgNum+" Palindrome Number");
 	    }
 	    else
 	    {

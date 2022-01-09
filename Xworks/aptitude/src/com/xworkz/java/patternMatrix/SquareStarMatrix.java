@@ -1,6 +1,5 @@
-package com.xworkz.java.patternMatrix;
-
 public class SquareStarMatrix {
+	
 
 	void increaseStarTriangleMatrix() {
 
